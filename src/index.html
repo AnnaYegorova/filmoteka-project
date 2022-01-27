@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заголовок страницы</title>
+    <title>Filmoteka</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,51 +20,55 @@
     />
   </head>
   <body>
-    <div class="banner">
-      <header class="header" id="header">
-        <div class="container">
-          <div class="">
-            <nav class="header__navigation header-container">
-              <a class="logo nav-item__link">
-                <svg class="logo-img">
-                  <use href="../src/images/sprites/sprite.svg#logo"></use>
-                </svg>
-                Filmoteka</a
-              >
-              <ul class="navigation__list list">
-                <li class="navigation__list-item">
-                  <a class="nav-item__link link">HOME</a>
-                </li>
-                <li class="navigation__list-item">
-                  <a class="nav-item__link link">MY LIBRARY</a>
-                </li>
-              </ul>
-            </nav>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="">
+          <nav class="header__navigation header-container">
+            <a class="logo nav-item__link">
+              <svg class="logo-img">
+                <use href="../src/images/sprites/sprite.svg#logo"></use>
+              </svg>
+              Filmoteka</a
+            >
+            <ul class="navigation__list list">
+              <li class="navigation__list-item">
+                <a class="nav-item__link link">HOME</a>
+              </li>
+              <li class="navigation__list-item">
+                <a class="nav-item__link link">MY LIBRARY</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <section class="search__section">
+          <form class="search-form" id="search-form">
+            <input
+              class="search-input"
+              type="text"
+              name="searchQuery"
+              autocomplete="off"
+              placeholder="Поиск фильмов..."
+            />
+            <button type="submit" class="search__btn">
+              <svg class="search-img">
+                <use href="../src/images/sprites/sprite.svg#search2"></use>
+              </svg>
+            </button>
+          </form>
+
+          <div class="notification-text is-hidden">
+            Search result not successful. Enter the correct movie name and
           </div>
-        </div>
-      </header>
+        </section>
+      </div>
+    </header>
 
-      <section class="search__section">
-        <form class="search-form" id="search-form">
-          <input
-            class="search-input"
-            type="text"
-            name="searchQuery"
-            autocomplete="off"
-            placeholder="Search movies..."
-          />
-          <button type="submit" class="search__btn">
-            <svg class="search-img">
-              <use href="../src/images/sprites/sprite.svg#search2"></use>
-            </svg>
-          </button>
-        </form>
-
-        <div class="notification-text is-hidden">
-          Search result not successful. Enter the correct movie name and
-        </div>
+    <main>
+      <section class="gallery__section">
+        <div class="container gallery"></div>
       </section>
-    </div>
+    </main>
 
     <footer class="footer">
       <div class="footer__wrapper">

@@ -7,7 +7,7 @@
 @import '../sass/base/common';
 @import '../sass/utils/variables';
 
-@import './header';
-@import './footer';
-@import './search_form';
-@import './my_search_form';
+@import './layout/footer';
+@import './layout/gallery';
+@import './layout/search_form';
+@import './layout/header';
