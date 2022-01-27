@@ -1,0 +1,54 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  font-size: 24px;
+}
+.form {
+  background-color: rgb(119, 119, 238);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+  font-size: 13px;
+}
+.button-search {
+  margin-left: 5px;
+
+  border-radius: 2px;
+  border: rgb(119, 119, 238);
+  height: 20px;
+}
+.button-search:focus {
+  background-color: rgb(225, 225, 245);
+}
+.form-input {
+  border-radius: 2px;
+  border: rgb(238, 237, 245);
+  height: 20px;
+  width: 250px;
+  padding-left: 5px;
+}
+.form-input:focus {
+  outline: 0;
+  border-color: rgb(141, 193, 241);
+  box-shadow: 0 0 0 0.25rem rgba(51, 53, 184, 0.25);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+.film-card {
+  display: block;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.film-card:hover {
+  transform: scale(1.03);
+}

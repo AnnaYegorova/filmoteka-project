@@ -1,0 +1,25 @@
+.banner {
+  min-height: 230px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+    url('../images/hero/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+      url('../images/hero/bg@2x.jpg');
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--second-text-color);
+}
+
+.navigation__list {
+  display: flex;
+}
