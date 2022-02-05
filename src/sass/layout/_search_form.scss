@@ -3,6 +3,10 @@
   height: 12px;
 }
 .search__btn {
+  display: block;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
   border: transparent;
   background-color: transparent;
 }
@@ -20,18 +24,29 @@
 .search-form {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid #ffffff;
+  @media screen and (min-width: 768px) {
+    width: 336px;
+  }
 }
 .search-input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #ffffff;
+
   outline: none;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  color: black;
+  color: #ffffff;
   width: inherit;
+}
+.search-input::placeholder {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
 }

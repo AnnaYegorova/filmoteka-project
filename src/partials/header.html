@@ -1,7 +1,8 @@
 <header class="header" id="header">
+  <h1 class="visually-hidden">Filmoteka</h1>
   <div class="container">
-    <div class="">
-      <nav class="header__navigation header-container">
+    <div class="header__section">
+      <nav class="header__navigation">
         <a class="logo nav-item__link">
           <svg class="logo-img">
             <use href="../src/images/sprites/sprite.svg#logo"></use>
@@ -13,11 +14,11 @@
               fill="freeze"
             />
           </svg>
-          Filmoteka</a
+          <span class="logo-name">Filmoteka</span></a
         >
         <ul class="navigation__list list">
           <li class="navigation__list-item">
-            <a class="nav-item__link link">HOME</a>
+            <a class="nav-item__link link is-current">HOME</a>
           </li>
           <li class="navigation__list-item">
             <a class="nav-item__link link">MY LIBRARY</a>
@@ -27,6 +28,7 @@
     </div>
 
     <section class="search__section">
+      <h2 class="visually-hidden">Search section</h2>
       <form class="search-form" id="search-form">
         <input
           class="search-input"
