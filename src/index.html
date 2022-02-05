@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Filmoteka</title>
-
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,69 +20,11 @@
     />
   </head>
   <body>
-    <header class="header" id="header">
-      <div class="container">
-        <div class="">
-          <nav class="header__navigation header-container">
-            <a class="logo nav-item__link">
-              <svg class="logo-img">
-                <use href="../src/images/sprites/sprite.svg#logo"></use>
-              </svg>
-              Filmoteka</a
-            >
-            <ul class="navigation__list list">
-              <li class="navigation__list-item">
-                <a class="nav-item__link link">HOME</a>
-              </li>
-              <li class="navigation__list-item">
-                <a class="nav-item__link link">MY LIBRARY</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <section class="search__section">
-          <form class="search-form" id="search-form">
-            <input
-              class="search-input"
-              type="text"
-              name="searchQuery"
-              autocomplete="off"
-              placeholder="Поиск фильмов..."
-            />
-            <button type="submit" class="search__btn">
-              <svg class="search-img">
-                <use href="../src/images/sprites/sprite.svg#search2"></use>
-              </svg>
-            </button>
-          </form>
-
-          <div class="notification-text is-hidden">
-            Search result not successful. Enter the correct movie name and
-          </div>
-        </section>
-      </div>
-    </header>
-
+    <include src="partials/header.html"></include>
     <main>
-      <section class="gallery__section">
-        <div class="container gallery"></div>
-      </section>
+      <include src="partials/gallery.html"></include>
     </main>
-
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <p class="footer__text">
-          © 2020 | All Rights Reserved | Developed with
-          <svg class="favorite-img">
-            <use href="../src/images/sprites/sprite.svg#favorite"></use>
-          </svg>
-          by
-          <a class="footer__link">GoIt Students</a>
-        </p>
-      </div>
-    </footer>
-
+    <include src="partials/footer.html"></include>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
 
     <!-- <include src="./partials/my_search-form.html"></include> -->
