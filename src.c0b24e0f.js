@@ -5,4 +5,4 @@ const e="https://api.themoviedb.org/3/",n="ca1cb5cf0962813c7315de2a2830def2",t=d
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/components/search_form");
 },{"./sass/main.scss":"clu1","./js/components/search_form":"Md17"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.5befed9d.js.map
+//# sourceMappingURL=/filmoteka-project/src.c0b24e0f.js.map
