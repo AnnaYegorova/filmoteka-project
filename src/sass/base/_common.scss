@@ -11,6 +11,9 @@ body {
   font-family: var(--primary-font);
   font-weight: 500;
   color: var(--primary-text-color);
+
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1,
