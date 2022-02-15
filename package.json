@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "filmoteka-project",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
@@ -16,7 +16,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/filmoteka-project/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
