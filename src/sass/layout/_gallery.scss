@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 10px;
+  // padding: 10px;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -28,9 +28,11 @@
   @media screen and (min-width: 768px) {
     width: 293px;
     margin: 15px;
+    flex-basis: calc(100% / 2 - 30px);
   }
   @media screen and (min-width: 1024px) {
     width: 274px;
+    flex-basis: calc(100% / 3 - 30px);
   }
 }
 
